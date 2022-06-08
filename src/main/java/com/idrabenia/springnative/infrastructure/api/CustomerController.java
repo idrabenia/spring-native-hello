@@ -1,8 +1,8 @@
-package com.softeq.springnative.infrastructure.api;
+package com.idrabenia.springnative.infrastructure.api;
 
-import com.softeq.springnative.infrastructure.api.dto.CustomerDto;
-import com.softeq.springnative.infrastructure.api.dto.CustomerMapper;
-import com.softeq.springnative.service.CustomerService;
+import com.idrabenia.springnative.infrastructure.api.dto.CustomerMapper;
+import com.idrabenia.springnative.service.CustomerService;
+import com.idrabenia.springnative.infrastructure.api.dto.CustomerDto;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;

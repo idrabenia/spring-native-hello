@@ -1,4 +1,4 @@
-package com.softeq.springnative.infrastructure.api.dto;
+package com.idrabenia.springnative.infrastructure.api.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

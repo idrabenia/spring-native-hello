@@ -1,7 +1,7 @@
-package com.softeq.springnative.service;
+package com.idrabenia.springnative.service;
 
-import com.softeq.springnative.domain.Customer;
-import com.softeq.springnative.domain.CustomerRepository;
+import com.idrabenia.springnative.domain.Customer;
+import com.idrabenia.springnative.domain.CustomerRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

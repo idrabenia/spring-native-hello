@@ -1,6 +1,6 @@
-package com.softeq.springnative.infrastructure.api.dto;
+package com.idrabenia.springnative.infrastructure.api.dto;
 
-import com.softeq.springnative.domain.Customer;
+import com.idrabenia.springnative.domain.Customer;
 import org.mapstruct.Mapper;
 
 import java.util.List;

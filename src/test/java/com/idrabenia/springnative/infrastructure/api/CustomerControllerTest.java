@@ -1,10 +1,11 @@
-package com.softeq.springnative.infrastructure.api;
+package com.idrabenia.springnative.infrastructure.api;
 
-import com.softeq.springnative.domain.Customer;
-import com.softeq.springnative.infrastructure.api.dto.CustomerDto;
-import com.softeq.springnative.infrastructure.api.dto.CustomerMapper;
+import com.idrabenia.springnative.domain.Customer;
+import com.idrabenia.springnative.infrastructure.api.dto.CustomerDto;
+import com.idrabenia.springnative.infrastructure.api.dto.CustomerMapper;
+import com.idrabenia.springnative.service.CustomerService;
 import com.softeq.springnative.infrastructure.api.dto.CustomerMapperImpl;
-import com.softeq.springnative.service.CustomerService;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -42,9 +43,9 @@ class CustomerControllerTest {
 
         var result = controller.create(customer);
 
-        assertEquals(1, result.getId());
-        assertEquals("A", result.getFirstName());
-        assertEquals("B", result.getLastName());
+        Assertions.assertEquals(1, result.getId());
+        Assertions.assertEquals("A", result.getFirstName());
+        Assertions.assertEquals("B", result.getLastName());
     }
 
     @Test

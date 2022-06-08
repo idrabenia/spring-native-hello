@@ -1,4 +1,4 @@
-package com.softeq.springnative;
+package com.idrabenia.springnative;
 
 import org.hibernate.dialect.PostgreSQL95Dialect;
 import org.springframework.boot.SpringApplication;

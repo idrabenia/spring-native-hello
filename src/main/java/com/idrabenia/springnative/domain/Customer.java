@@ -1,4 +1,4 @@
-package com.softeq.springnative.domain;
+package com.idrabenia.springnative.domain;
 
 import lombok.*;
 
