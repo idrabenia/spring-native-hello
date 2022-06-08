@@ -4,7 +4,7 @@ import com.idrabenia.springnative.domain.Customer;
 import com.idrabenia.springnative.infrastructure.api.dto.CustomerDto;
 import com.idrabenia.springnative.infrastructure.api.dto.CustomerMapper;
 import com.idrabenia.springnative.service.CustomerService;
-import com.softeq.springnative.infrastructure.api.dto.CustomerMapperImpl;
+import com.idrabenia.springnative.infrastructure.api.dto.CustomerMapperImpl;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
